@@ -14,7 +14,7 @@ pipeline {
         } 
 	stage('Deploy') {
             steps {		
-                sh 'echo Deployed'
+                sh 'sudo cp /var/lib/jenkins/workspace/${GIT_BRANCH}/target/hello-world-war-2.0.0.war'
             }
         }
 	    
