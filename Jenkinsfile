@@ -14,7 +14,7 @@ pipeline {
         } 
 	stage('Deploy') {
             steps {		
-                sh 'cp /var/lib/jenkins/workspace/${JOB_NAME}/target/hello-world-war-2.0.0.war /opt/apache-tomcat-10.1.13/webapps'
+                sh 'cp /var/lib/jenkins/workspace/multi2-dev/target/hello-world-war-2.0.0.war /opt/apache-tomcat-10.1.13/webapps'
             }
         }
 	    
