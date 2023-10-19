@@ -3,11 +3,9 @@
 <title>Hello World with new version 2!</title>
 </head>
 <body>
-	<h1>Hello World with new version 2!</h1>
-        <h1>Hello World with new version 3!</h1>
-	<h1>Hello World with new version 4!</h1>
-	<h1>Hello World with new version 5!</h1>
-	<h1>Hello World with new version in Master branch!</h1>
+	<h1>This project is build in Slave 1!</h1>
+       
+	<h1>Deployed in Slave2</h1>
 	<p>
 		It is now
 		<%= new java.util.Date() %></p>
