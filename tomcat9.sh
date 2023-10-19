@@ -1,6 +1,6 @@
 #!/bin/bash/
 sudo apt-cache search tomcat
-sudo apt install tomcat9 tomcat9-admin
+sudo apt install tomcat9 tomcat9-admin -y
 sudo ufw allow from any to any port 9090 proto tcp
 rm -rf /etc/tomcat9/server.xml
 rm -rf /etc/tomcat9/tomcat-users.xml
