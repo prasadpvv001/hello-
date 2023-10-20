@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Hello World with new version 2!</title>
+<title>Hello World  jenkins project using pipeline 2!</title>
 </head>
 <body>
 	<h1>This project is build in Slave 1!</h1>
